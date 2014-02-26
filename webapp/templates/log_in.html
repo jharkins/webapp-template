@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+{% from "_form_helper.html" import render_field %}
+{% block page_title %}Log In - {% endblock %}
+{% block page_head %}Log In{% endblock %}
+{% block content %}
+<div class="col-md-6">
+    <form name="signin" role="form" action="" method="POST">
+        {{form.hidden_tag()}}
+        {{ render_field(form.email, class='form-control', placeholder='Enter Email Address') }}
+        {{ render_field(form.password, class='form-control', placeholder='Enter Password') }}
+        {{ render_field(form.remember_me, class='form-control', placeholder='Remember Me') }}
+        <button type="submit" class="btn btn-default">Sign In</button>
+    </form>
+</div>
+{% endblock %}

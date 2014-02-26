@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+{% block page_title %}Index{% endblock %}
+{% block page_head %}Web Application Template{% endblock %}
+{% block content %}
+
+<p>This template can be used as a starting point for any webapp that you want to
+have authentication enabled. It provides all the tools - you just have to customize it!</p>
+<p><a href="{{url_for('register')}}">Register &raquo;</a></p>
+<p><a href="{{url_for('log_in')}}">Log In &raquo;</a></p>
+
+{% endblock %}
