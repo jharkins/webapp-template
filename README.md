@@ -9,6 +9,16 @@ start a web application and have access to all of these awesome technologies:
 3. Twitter Bootstrap for HTML/CSS stuff.
 4. jQuery and loDash for JS stuff.
 
+## Quick Start
+
+1. Download (or fork, or whatever) the repository.
+2. Create a virtual environment `virtualenv venv`
+3. Activate the venv `source venv/bin/activate`
+4. Get the requirements `pip install -r requirements.txt`
+5. Change the config.py stuff to suit your needs.
+6. Change the secret key in webapp/__init__.py to something different (this is
+   for security purposes).
+
 ## Notes
 
 Authentication and registration is hooked in with Flask-SQLAlchemy and
