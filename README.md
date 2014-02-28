@@ -22,13 +22,11 @@ start a web application and have access to all of these awesome technologies:
    the default SQLAlchemy model by running the following in the python
    interpreter:
 
-        ```
         Python 2.7.5 (default, Aug 25 2013, 00:04:04) 
         [GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.0.68)] on darwin
         Type "help", "copyright", "credits" or "license" for more information.
         >>> import webapp
         >>> webapp.webapp.lib.db.db.create_all()
-        ```
 
    The above will create a sqlite3 database with the User schema cooked in.
 
