@@ -16,7 +16,7 @@ start a web application and have access to all of these awesome technologies:
 3. Activate the venv `source venv/bin/activate`
 4. Get the requirements `pip install -r requirements.txt`
 5. Change the config.py stuff to suit your needs.
-6. Change the secret key in webapp/__init__.py to something different (this is
+6. Change the secret key in `webapp/__init__.py` to something different (this is
    for security purposes).
 
 ## Notes
