@@ -18,6 +18,18 @@ start a web application and have access to all of these awesome technologies:
 5. Change the config.py stuff to suit your needs.
 6. Change the secret key in `webapp/__init__.py` to something different (this is
    for security purposes).
+7. If you would just like to try this out without much customizing, you can use
+   the default SQLAlchemy model by running the following in the python
+   interpreter:
+   `
+   Python 2.7.5 (default, Aug 25 2013, 00:04:04) 
+   [GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.0.68)] on darwin
+   Type "help", "copyright", "credits" or "license" for more information.
+   >>> import webapp
+   >>> webapp.webapp.lib.db.db.create_all()
+   `
+
+   The above will create a sqlite3 database with the User schema cooked in.
 
 ## Notes
 
